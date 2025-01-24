@@ -56,21 +56,32 @@ button:hover {
     color:darkslategray;
 }
 
-div li {
-    display: block;
-    background-color: cadetblue;
-    text-decoration: none;
-}
-
-div {
-    display: block;
-    background-color: white;
-    color: darkslategray;
-}
-
 div ul {
     list-style: none;
     margin: 0;
     padding: 0;
     background-color: cadetblue;
+}
+
+div {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: cadetblue;
+}
+
+div li {
+    display: inline-block;
+}
+
+div a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+div a:hover {
+    color: darkslategray;
 }
